@@ -1,0 +1,21 @@
+
+//variabili
+$primary-color: grey;
+$secondary-color: green;
+
+body{
+    background-color: #000;
+    text-align: center;
+    h1{
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    h2,
+    h3{
+      color: $primary-color;
+    }
+    p{
+      color: $secondary-color;
+    }
+    
+}
